@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Pacifico&display=swap');
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body{
+    position: relative;
+    background: whitesmoke;
+}
+
+h1{
+
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: whitesmoke;
+    padding: 6px;
+}
+
+nav{
+    background: black;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+
+}
+
+#bloco{
+    background: rgb(0, 0, 0);
+    margin-top: 70px;
+    margin-left: 27%;
+    margin-right: 27%;
+    height: 200px;
+    border-radius: 33px;
+
+}
+
+#setup{
+    padding-top: 26px;
+    font-family: "Lexend", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#punch{
+    padding-top: 06px;
+    font-family: "Lexend", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color: whitesmoke;
+
+
+}
+
+
+input {
+    margin-top: 10px;
+    text-align: center;
+    background-color: whitesmoke;
+    color: #000;
+    font-family: "Lexend", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+
+    padding: 16px 20px;
+    border: none;
+    border-radius: 12px;
+
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;    
+}
+
+input:hover {
+ background: linear-gradient(45deg, #4a90e2, #6a5acd);
+    color: white;
+
+    box-shadow:
+        0 0 10px #4a90e2,
+        0 0 20px #4a90e2,
+        0 0 30px #4a90e2;
+}
+
+#trocar{
+    display: block;
+    margin: 20px auto;
+}
+
+.logo {
+    display: flex;
+    justify-content: center; /* centro horizontal */
+    align-items: center;     /* centro vertical */
+    height: 100vh;           /* ocupa a altura da tela */
+}
+
+.faixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px; /* altura da faixa */
+    background: black;
+}
+
+footer{    
+    position: fixed;
+    text-align: center;
+    background: black;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+}
